@@ -25,6 +25,7 @@ public class ImageCompare
 
     private final ComparisonOptions cOptions = new ComparisonOptions();
 
+
     public static void main(String[] args)
     {
         int thresholdPercentage = 70;
@@ -42,11 +43,13 @@ public class ImageCompare
                     thresholdPercentage);
         }
     }
-    
+
+
     public ImageCompare()
     {
-        
+
     }
+
 
     public ImageCompare(String path, int thresholdPercentage)
     {
@@ -118,6 +121,7 @@ public class ImageCompare
 
     }
 
+
     private int compareImages(String inputImagePath, String compareWithImagePath)
     {
         try
@@ -137,6 +141,7 @@ public class ImageCompare
             return 0;
         }
     }
+
 
     private void showEqualImages(String picAPath,
             String picBPath,
