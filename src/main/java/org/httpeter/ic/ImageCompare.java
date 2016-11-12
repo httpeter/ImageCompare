@@ -42,6 +42,11 @@ public class ImageCompare
                     thresholdPercentage);
         }
     }
+    
+    public ImageCompare()
+    {
+        
+    }
 
     public ImageCompare(String path, int thresholdPercentage)
     {
